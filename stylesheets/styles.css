@@ -7,28 +7,28 @@ p{
 
 
 @media screen and (max-width: 750px) {
-#project_tagline {
-	text-align:center;
-font-size:28px;
-}
-#project_title {
-font-size:34px;
-text-align:center;
-}
-
-
-
-
+	#project_tagline {
+		text-align:center;
+		font-size:28px;
+	}
+	#project_title {
+		font-size:34px;
+		text-align:center;
 	}
 
-	@media screen and (max-width: 550px) {
-#project_tagline {
-	text-align:center;
-font-size:25px;
-}
-#project_title {
-font-size:34px;
-text-align:center;
+
+
+
 }
 
+@media screen and (max-width: 550px) {
+	#project_tagline {
+		text-align:center;
+		font-size:25px;
 	}
+	#project_title {
+		font-size:34px;
+		text-align:center;
+	}
+
+}
