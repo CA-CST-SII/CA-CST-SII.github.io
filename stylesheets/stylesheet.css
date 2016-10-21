@@ -261,7 +261,7 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
-
+@media screen and (min-width: 550px) {
 #forkme_banner {
   display: block;
   position: absolute;
@@ -277,7 +277,7 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
   transition: .3s;
 }
-
+}
 a#forkme_banner:hover {
     background: url('../images/blacktocat.png') #005392 no-repeat 95% 50%;
 }
