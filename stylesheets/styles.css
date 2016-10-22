@@ -1,8 +1,63 @@
 p{
 	color:black;
+	letter-spacing:-1px;
 }
 #cast-logo{
 	position:absolute;
+}
+.section {
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    align-content: center;
+    align-items: center;
+    background: #ececec;
+    flex-direction: column;
+    /* text-align: center; */
+    border-bottom: 1px solid black;
+  
+}
+.outer{
+	height:100vh;
+}
+div#section-two, div#section-four {
+    background: #b8d4ff;
+    height:60vh;
+}
+#section-two{
+	height:60vh;
+	    width: 50%;
+    float: left;
+    background: #b8d4ff;
+
+}
+#section-three{
+	height:60vh;
+	    width: 50%;
+    float: left;
+    background: #b8d4ff;
+}
+#section-two .inner-section, #section-three .inner-section{
+	font-size:18px;
+}
+.inner-section{
+	    font-size: 23px;
+	width: 60%;
+}
+p#second-pagraph {
+    /* letter-spacing: -2px; */
+    font-size: 20px;
+}
+.link-click a{
+	font-size:18px;
+}
+div#section-four {
+    width: 100%;
+    height: 50vh;
+}
+#links{
+    text-shadow: 1px 1px 1px #1f1f1f;
 }
 
 

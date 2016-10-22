@@ -50,7 +50,7 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#0515FA;
+ 
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
@@ -78,7 +78,10 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px #ababab;
+    color: #506ff0;
+    letter-spacing: -2px;
 }
 
 h4 {
@@ -289,6 +292,9 @@ a#forkme_banner:hover {
   background: -ms-linear-gradient(top, #506ff0);
   background: -o-linear-gradient(top, #506ff0);
   background: linear-gradient(top, #506ff0);
+      display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #header_wrap .inner {
