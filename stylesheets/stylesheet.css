@@ -221,7 +221,6 @@ dl p {
 }
 
 hr {
-  height: 1px;
   margin-bottom: 5px;
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
@@ -285,7 +284,7 @@ a#forkme_banner:hover {
     background: url('../images/blacktocat.png') #005392 no-repeat 95% 50%;
 }
 
-#header_wrap {
+#header-wrap {
   background: #506ff0;
   background: -moz-linear-gradient(top, #506ff0);
   background: -webkit-linear-gradient(top, #506ff0);
@@ -295,9 +294,15 @@ a#forkme_banner:hover {
       display: flex;
     justify-content: center;
     align-items: center;
+
+/*    background: url(../images/b-3.jpg) black;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+
+
 }
 
-#header_wrap .inner {
+#header-wrap .inner {
       padding: 120px 10px 120px 10px;
 }
 
@@ -403,6 +408,7 @@ Small Device Styles
 
   h3 {
     font-size: 21px;
+
   }
 
   h4 {
