@@ -50,7 +50,7 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#0515FA;
+ 
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
@@ -78,7 +78,10 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px #ababab;
+    color: #506ff0;
+    letter-spacing: -2px;
 }
 
 h4 {
@@ -93,9 +96,7 @@ h6 {
   font-size: 16px;
 }
 
-p {
-  margin: 10px 0 15px 0;
-}
+
 
 footer p {
   color: #f2f2f2;
@@ -114,7 +115,8 @@ a:hover {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+
+  color:#42bfff;
   text-decoration: underline;
 }
 
@@ -218,7 +220,6 @@ dl p {
 }
 
 hr {
-  height: 1px;
   margin-bottom: 5px;
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
@@ -282,32 +283,46 @@ a#forkme_banner:hover {
     background: url('../images/blacktocat.png') #005392 no-repeat 95% 50%;
 }
 
-#header_wrap {
-  background: #506ff0;
+#header-wrap {
+  background: #2355b1;
   background: -moz-linear-gradient(top, #506ff0);
   background: -webkit-linear-gradient(top, #506ff0);
   background: -ms-linear-gradient(top, #506ff0);
   background: -o-linear-gradient(top, #506ff0);
   background: linear-gradient(top, #506ff0);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+
+/*    background: url(../images/b-3.jpg) black;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+
+
 }
 
-#header_wrap .inner {
+#header-wrap .inner {
       padding: 120px 10px 120px 10px;
 }
 
 #project_title {
-  margin: 0;
-  color: #fff; /* #fff; */
-  font-size: 42px;
-  font-weight: 500;
-  text-shadow: #212121 0px 0px 5px; /*#111 0px 0px 10px; */
+    margin: 0;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    text-shadow: #212121 0px 0px 5px;
+    white-space: nowrap;
+    line-height: 100px;
 }
 
 #project_tagline {
-  color:  #fff;
+  color:  #f3f3f3;
   font-weight: 300;
   background: none;
-  text-shadow: #E0E5EE 0px 0px 1px; /* #111 0px 0px 10px; */
+  font-family: SS-Pro;
+
+  font-size: 25px;
+    letter-spacing: 0px;
 }
 
 #downloads {
@@ -360,11 +375,28 @@ a#forkme_banner:hover {
 }
 
 #footer_wrap {
-  background: #506ff0;
+  background: #2355b1;
+    padding:100px 0px 100px 0px;
 }
+#footer_wrap h3{
+    color: white;
+    font-size: 20px;
+    text-shadow: none;
+        letter-spacing: -1px;
+}
+#footer_wrap p{
+  color:white;
 
-
-
+    line-height: 18px;
+}
+#footer_wrap #address{
+  color:#d2d2d2;
+  margin-bottom:10px;
+  font-size: 16px;
+}
+#footer_wrap i{
+  margin-right:8px;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -397,6 +429,7 @@ Small Device Styles
 
   h3 {
     font-size: 21px;
+
   }
 
   h4 {
