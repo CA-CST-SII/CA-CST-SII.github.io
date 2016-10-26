@@ -5,6 +5,7 @@ sr.reveal('.link-anim',{ duration: 500 });
 sr.reveal('#header_wrap .inner',{ duration: 1000 });
 sr.reveal('#section-one .inner-section',{ duration: 1300 });
 sr.reveal('#section-two .inner-section p',{ duration: 1300 });
+sr.reveal('.title',{ duration: 1300 });
 sr.reveal('#section-three .inner-section p',{ duration: 1300 });
 sr.reveal('#section-four .inner-section',{ duration: 1300 });
 
@@ -23,4 +24,9 @@ $(function() {
       }
     }
   });
+});
+
+/*--Scroll Arrow---*/
+$(document).on('scroll', function (e) {
+    $('.arrow-up').css('display', ($(document).scrollTop() / 500));
 });
