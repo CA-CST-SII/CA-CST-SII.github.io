@@ -25,6 +25,10 @@
        url('../fonts/merriweather-bold-webfont.ttf')  format('truetype'), 
        url('../fonts/merriweather-bold-webfont.svg#svgFontName') format('svg'); 
 }
+
+footer.inner{
+	    text-align: center;
+}
 h3{
 	font-family: Merriweather-Bold;
 }
@@ -39,7 +43,7 @@ h3{
 .membership-info{
 display: inline-block;
     width: 60%;
-    color: #4c4c4c;
+    color: #6d6d6d;
     font-size: 17px;
     letter-spacing: -1px;
     text-align: right;
@@ -75,7 +79,11 @@ p{
 	        color: #4c4c4c;
 }
 #cast-logo{
-	position:absolute;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right:10px;
 }
 .section {
     display: flex;
@@ -287,23 +295,46 @@ opacity:.4;
 }
 
 .arrow-up{
-	position:fixed;
-	bottom:0;
-	right:0;
-	height:50px;
-	height:50px;
-	text-align:center;
-	margin-right:100px;
-	margin-bottom:100px;
-	font-size:50px;
-	color:black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    height: 50px;
+    width: 50px;
+    background: #4c4c4c;
+    color: white;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 100px;
+        border-radius: 1px;
+        opacity:.3;
+        display:none;
+}
+.arrow-up:hover{
+	opacity:1;
+}
+.arrow-up:hover a{
+	color:white;
 }
 .arrow-up a{
-	color:black;
+color: white;
+    font-size: 30px;
+    /* height: 100px; */
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
-
-
-
+.noShow{
+	display:none;
+}
+.show{
+	display:block;
+}
+.transitionfour{
+	transition:.4s;
+}
 /*-------RESPONSIVE-------*/
 
 @media screen and (max-width: 850px) {
@@ -328,11 +359,12 @@ opacity:.4;
 @media screen and (max-width: 750px) {
 	#project_tagline {
 		text-align:center;
-		font-size:28px;
+		font-size:20px;
 	}
 	#project_title {
 		font-size:34px;
 		text-align:center;
+		  white-space: normal;
 	}
 hr.header-hr {
 margin:0 auto;
@@ -354,11 +386,12 @@ height:100vh;
 	}
 	#project_tagline {
 		text-align:center;
-		font-size:25px;
+		font-size:16px;
 	}
 	#project_title {
 		font-size:34px;
 		text-align:center;
+		  white-space: normal;
 	}
 #forkme_banner {
     display: block;

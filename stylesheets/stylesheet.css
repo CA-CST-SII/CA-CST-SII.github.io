@@ -115,7 +115,8 @@ a:hover {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+
+  color:#42bfff;
   text-decoration: underline;
 }
 
@@ -305,19 +306,23 @@ a#forkme_banner:hover {
 }
 
 #project_title {
-  margin: 0;
-  color: #fff; /* #fff; */
-  font-size: 42px;
-  font-weight: 500;
-  text-shadow: #212121 0px 0px 5px; /*#111 0px 0px 10px; */
+    margin: 0;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    text-shadow: #212121 0px 0px 5px;
+    white-space: nowrap;
+    line-height: 100px;
 }
 
 #project_tagline {
   color:  #f3f3f3;
   font-weight: 300;
   background: none;
-  text-shadow: #E0E5EE 0px 0px 1px; /* #111 0px 0px 10px; */
   font-family: SS-Pro;
+
+  font-size: 25px;
+    letter-spacing: 0px;
 }
 
 #downloads {
@@ -370,11 +375,28 @@ a#forkme_banner:hover {
 }
 
 #footer_wrap {
-  background: #506ff0;
+  background: #2355b1;
+    padding:100px 0px 100px 0px;
 }
+#footer_wrap h3{
+    color: white;
+    font-size: 20px;
+    text-shadow: none;
+        letter-spacing: -1px;
+}
+#footer_wrap p{
+  color:white;
 
-
-
+    line-height: 18px;
+}
+#footer_wrap #address{
+  color:#d2d2d2;
+  margin-bottom:10px;
+  font-size: 16px;
+}
+#footer_wrap i{
+  margin-right:8px;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
