@@ -25,6 +25,46 @@
        url('../fonts/merriweather-bold-webfont.ttf')  format('truetype'), 
        url('../fonts/merriweather-bold-webfont.svg#svgFontName') format('svg'); 
 }
+nav{
+	position:absolute;
+}
+#nav-stuff{
+	list-style: none;
+}
+#nav-stuff li {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-family: SS-Pro;
+    font-weight: bolder;
+}
+
+#nav-stuff li a{
+	color:white;
+	text-decoration:none;
+	opacity:.5;
+}
+#nav-stuff a:hover{
+	opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer.inner{
 	    text-align: center;
