@@ -26,7 +26,7 @@
        url('../fonts/merriweather-bold-webfont.svg#svgFontName') format('svg'); 
 }
 nav{
-	position:absolute;
+	position:fixed;
 }
 #nav-stuff{
 	list-style: none;
@@ -376,7 +376,11 @@ color: white;
 	transition:.4s;
 }
 /*-------RESPONSIVE-------*/
-
+@media screen and (min-width:1600px){
+.inner-section p{
+	font-size:20px !important; 
+}
+}
 @media screen and (max-width: 850px) {
 #section-two{
 	width:100%;
